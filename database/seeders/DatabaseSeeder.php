@@ -19,5 +19,7 @@ class DatabaseSeeder extends Seeder
             'email' => 'pandapicker@gmail.com',
             'password' => 'vpanda@zzpicker',
         ]);
+
+        Order::factory(20)->create();
     }
 }
